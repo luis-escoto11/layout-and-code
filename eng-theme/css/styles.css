@@ -1,0 +1,86 @@
+html, body {font-family: 'Open Sans', sans-serif; background-color: #f2f2f2 !important}
+
+.navbar-dark {background-color: rgba(120, 111, 166,0.7) !important;}
+
+/* SERVICES */
+.card p, h5, a {color: white;}
+
+.services h3 {margin-top: 100px !important;}
+
+/* STEPS */
+.fa-play:before {margin-left: .3rem;}
+
+.step {
+	list-style: none;
+    margin: 0;
+}
+
+.step-element {
+    display: flex;
+    padding: 1rem 0;
+}
+
+.step-number {
+    position: relative;
+    width: 7rem;
+    flex-shrink: 0;
+    text-align: center;
+}
+
+.step-number .number {
+    color: #bfc5ca;
+    background-color: #eaeff4;
+    font-size: 1.5rem;
+}
+
+.step-number .number {
+    width: 48px;
+    height: 48px;
+    line-height: 48px;
+}
+
+.number {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 38px;
+    border-radius: 10rem;
+}
+
+.step-number::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+   	top: 48px;
+    bottom: -2rem;
+    margin-left: -1px;
+    border-left: 2px dashed #eaeff4;
+}
+
+.step .step-element:last-child .step-number::before {bottom: 1rem;}
+
+/*ABOUT ME*/
+.about-me {
+	min-height: 70vh;
+	padding: 10px;
+}
+
+.about-me p {color: white}
+
+/*PORTFOLIO */
+.website-bg-1 {
+	background-image: url(https://images.unsplash.com/photo-1458229865435-7cbe781270e4?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80);
+	background-size: cover;
+	background-position: center center;
+}
+.website-bg-2 {
+	background-image: url(https://images.pexels.com/photos/2764720/pexels-photo-2764720.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+	background-size: cover;
+	background-position: center center;
+}
+
+/*CONTACT SECTION*/
+.contact-me {
+	background: #2c2c54;
+	min-height: 50vh;
+}
