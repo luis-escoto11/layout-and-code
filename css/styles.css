@@ -2,6 +2,10 @@ html, body {font-family: 'Open Sans', sans-serif; background-color: #f2f2f2 !imp
 
 .navbar-dark {background-color: rgba(120, 111, 166,0.7) !important;}
 
+.view .mask {
+    background-attachment: unset !important;
+}
+
 /* SERVICES */
 .card p, h5, a {color: white;}
 
@@ -83,4 +87,13 @@ html, body {font-family: 'Open Sans', sans-serif; background-color: #f2f2f2 !imp
 .contact-me {
 	background: #2c2c54;
 	min-height: 50vh;
+}
+
+
+/*MEDIA QUERIES*/
+@media only screen and (max-width:768px) {
+    h1 {
+        margin-top: 45px;
+        font-size: 2.5rem !important; 
+    }
 }
